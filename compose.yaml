@@ -1,0 +1,5 @@
+services:
+  haskell:
+    build: haskell
+    volumes:
+      - ./haskell:/haskell
