@@ -1,6 +1,6 @@
 ## haskell
 ```shell
-docker compose run --rm haskell bash
+docker compose exec haskell bash
 ```
 
 ```shell

@@ -3,6 +3,7 @@ services:
     build: haskell
     volumes:
       - ./haskell:/haskell
+    tty: true
   notebook:
     build:
       context: notebook
